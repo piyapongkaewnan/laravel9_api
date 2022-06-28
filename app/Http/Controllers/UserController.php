@@ -16,7 +16,7 @@ class UserController extends Controller
 
     public function show(User $user)
     {
-        return UserResource::make($user);
+        return  UserResource::make($user);
     }
 
     public function list()
